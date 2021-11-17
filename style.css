@@ -895,10 +895,7 @@ img{
 
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px)  and (max-width: 480px){
-  html{
-    overflow: hidden;
-  }
+@media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -942,7 +939,6 @@ img{
   #projects .all-projects .project-title h1{
     padding-top: 25%;
   }
-
   #contact.container {
     padding: 1.5rem;
   }
@@ -1050,8 +1046,6 @@ img{
 /* End  Media Query For Desktop */
 
 /* Media Query For Mobile Phone */
-
-
 
 
 
