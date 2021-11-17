@@ -895,7 +895,7 @@ img{
 
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:480px){
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
