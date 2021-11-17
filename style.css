@@ -970,7 +970,7 @@ img{
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px)  {
 	/* header */
 	#header .hamburger {
 		display: none;
@@ -999,3 +999,53 @@ img{
 	}
 }
 /* End  Media Query For Desktop */
+
+/* Media Query For Mobile Phone */
+
+@media only screen and (max-width: 480px) {
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 6rem;
+	}
+
+	/* Hero */
+	#hero h1 {
+		font-size: 7rem;
+	}
+	/* End Hero */
+
+	/* Services Section */
+	#skills .skill-bottom .skill-type {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* End Services Section */
+
+	/* Project */
+	#projects .project-item {
+		flex-direction: row;
+	}
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#projects .all-projects .project-info {
+		height: 100%;
+	}
+	#projects .all-projects .project-title {
+		height: 100%;
+	}
+  #projects .all-projects .project-title h1{
+    padding-top: 25%;
+  }
+}
+
+/* End  Media Query For Mobile Phone */
