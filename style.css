@@ -1002,7 +1002,7 @@ img{
 
 /* Media Query For Mobile Phone */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
 	.cta {
 		font-size: 1.5rem;
 		padding: 20px 20px;
